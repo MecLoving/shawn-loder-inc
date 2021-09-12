@@ -1,49 +1,53 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Heading from '../../components/heading'
 
-export default function Help() {
+export default function Promo() {
   return (
     <div className="container">
       <Head>
         <title>Shawn Loder Inc</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main>
         <h1 className="title">
-          Aider Gratuitement
+          Abonnement promotionnels
         </h1>
-    
-    
-    
-        <Link href="/twich">
-          <a>Twitch</a>
+        <Link href="/">
+          <a>Home</a>
         </Link>
-    
-    
-        <Link href="/amazon">
-          <a>Amazon</a>
-        </Link>
-    
-    
-        <Link href="/help">
-          <a> Youtube</a>
-        </Link>
-    
-    
-       <Link href="/share">
-          <a>Partager</a>
-        </Link>
-    
-    
-       <Link href="/promo">
-          <a>Abonnements promotionnels </a>
-        </Link>
-    
-    
-    
-      </main>
 
+        <div className="grid">
+          <Link href="/projects/ecologie">
+            <a className="card">
+              <h3>Shakepay &rarr;</h3>
+              <p>pour transaction en crypto monnaie et acquérir des bitcoins facilement et gratuitement</p>
+            </a>
+          </Link>
+
+          <Link href="/projects/gaming">
+            <a className="card">
+              <h3>Binance &rarr;</h3>
+              <p>Application pour crypto-trading</p>
+            </a>
+          </Link>
+
+          <Link href="/projects/sociaux">
+            <a className="card">
+              <h3>FlashFood &rarr;</h3>
+              <p>Application pour la nourriture et réduire les déchets.</p>
+            </a>
+          </Link>
+
+          <Link href="/projects/crypto">
+            <a className="card">
+              <h3>Bébitte le chien &rarr;</h3>
+              <p>La vie de Bébitte </p>
+            </a>
+          </Link>
+        </div>
+      </main>
       <style jsx>{`
         .container {
           min-height: 100vh;
