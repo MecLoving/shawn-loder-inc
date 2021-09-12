@@ -19,7 +19,7 @@ export default function Sociaux() {
         <p className="description">
           coming soon...
     
-    Dans l'objectif d'améliorer la société
+    Pour améliorer l'avenir de la société..
         </p>
       </main>
 
