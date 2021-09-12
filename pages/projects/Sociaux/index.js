@@ -1,3 +1,6 @@
+import Head from 'next/head'
+import Link from 'next/link'
+
 export default function Sociaux() {
   return (
     <div className="container">
@@ -10,13 +13,13 @@ export default function Sociaux() {
         <h1 className="title">
           Sociaux
         </h1>
-        <Link href="/politique">
-          <a>Partit Contemporain</a>
+        <Link href="/projects">
+          <a>Projects</a>
         </Link>
         <p className="description">
           coming soon...
     
-    Décisions Aujourd'hui pour le futur. 
+    Pour améliorer la société.
         </p>
       </main>
 
