@@ -1,4 +1,7 @@
-export default function Sociaux() {
+import Head from 'next/head'
+import Link from 'next/link'
+
+export default function Politique() {
   return (
     <div className="container">
       <Head>
@@ -8,15 +11,13 @@ export default function Sociaux() {
 
       <main>
         <h1 className="title">
-          Sociaux
+          Partit Contemporain
         </h1>
-        <Link href="/politique">
-          <a>Partit Contemporain</a>
-        </Link>
+        
         <p className="description">
           coming soon...
     
-    Décisions Aujourd'hui pour le futur. 
+    Pour la réforme du mode de scrutin.
         </p>
       </main>
 
