@@ -19,21 +19,21 @@ export default function Projects() {
         </Link>
 
         <div className="grid">
-          <Link href="/ecologie">
+          <Link href="/projects/ecologie">
             <a className="card">
               <h3>Eco-Projets &rarr;</h3>
               <p>pour améliorer la planète, ou au moins essayer de réduire la détérioration de celle-ci</p>
             </a>
           </Link>
 
-          <Link href="/gaming">
+          <Link href="/projects/gaming">
             <a className="card">
               <h3>Jeux Vidéos &rarr;</h3>
               <p>Projets/idées liés aux jeux vidéos.</p>
             </a>
           </Link>
 
-          <Link href="/sociaux">
+          <Link href="/projects/sociaux">
             <a className="card">
               <h3>Sociaux &rarr;</h3>
               <p>Projets/idées liés aux enjeux Sociaux</p>
