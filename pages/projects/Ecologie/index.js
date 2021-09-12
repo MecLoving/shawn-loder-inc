@@ -19,7 +19,7 @@ export default function Ecologie() {
         <p className="description">
           coming soon...
     
-    Pour l'avenir de la planète. 
+    Pour améliorer la planète
         </p>
       </main>
 

@@ -11,7 +11,7 @@ export default function Gaming() {
 
       <main>
         <h1 className="title">
-          Jeux Vidéos
+          Gaming
         </h1>
         <Link href="/projects">
           <a>Projects</a>
@@ -19,7 +19,7 @@ export default function Gaming() {
         <p className="description">
           coming soon...
     
-    En liens aux jeux vidéos 
+    Par rapport aux jeux-vidéos. 
         </p>
       </main>
 

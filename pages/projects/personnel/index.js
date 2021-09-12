@@ -11,7 +11,7 @@ export default function Personnel() {
 
       <main>
         <h1 className="title">
-          Personnel
+          Personnelles
         </h1>
         <Link href="/projects">
           <a>Projects</a>
@@ -19,7 +19,7 @@ export default function Personnel() {
         <p className="description">
           coming soon...
     
-    Juste des petites niaiseries pour me faire plaisir.
+    Petites conneries pour le fun.
         </p>
       </main>
 
