@@ -9,10 +9,7 @@ export default function Projects() {
         <title>Shawn Loder Inc</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Heading title={"projects"}/>
-      <Heading title={"hi"} />
-      <Heading title={"hello"} />
-      <Heading title={"world"} />
+      
       <main>
         <h1 className="title">
           Projects
