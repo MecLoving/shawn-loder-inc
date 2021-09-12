@@ -33,7 +33,7 @@ export default function Projects() {
             </a>
           </Link>
 
-          <Link href="/projects/politique">
+          <Link href="/projects/sociaux">
             <a className="card">
               <h3>Sociaux &rarr;</h3>
               <p>Projets/idées liés aux enjeux Sociaux</p>
