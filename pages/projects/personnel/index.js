@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Sociaux() {
+export default function Personnel() {
   return (
     <div className="container">
       <Head>
@@ -11,7 +11,7 @@ export default function Sociaux() {
 
       <main>
         <h1 className="title">
-          Sociaux
+          Personnel
         </h1>
         <Link href="/projects">
           <a>Projects</a>
@@ -19,7 +19,7 @@ export default function Sociaux() {
         <p className="description">
           coming soon...
     
-    Dans l'objectif d'améliorer la société
+    Juste des petites niaiseries pour me faire plaisir.
         </p>
       </main>
 
