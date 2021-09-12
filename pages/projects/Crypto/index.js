@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 export default function Crypto() {
   return (
+    
     <div className="container">
       <Head>
         <title>Shawn Loder Inc</title>
@@ -18,8 +19,36 @@ export default function Crypto() {
         </Link>
         <p className="description">
           coming soon...
+          <div className="grid">
+          <Link href="/srt">
+            <a className="card">
+              <h3>Space Raffle token &rarr;</h3>
+              <p>crypto currency for a chance to fly to space.</p>
+            </a>
+          </Link>
+
+          <Link href="/shawnloder">
+            <a className="card">
+              <h3>Shawn Loder multi coin &rarr;</h3>
+              <p>Cryptomonnaie pour encourager</p>
+            </a>
+          </Link>
+
+          <Link href="/sociaux">
+            <a className="card">
+              <h3>Garage aTOM-x &rarr;</h3>
+              <p>cryptomonnaie courante dans le garage a Tom</p>
+            </a>
+          </Link>
+
+          <Link href="/crypto">
+            <a className="card">
+              <h3>Crypto Trading &rarr;</h3>
+              <p>Daily Playing on crypto market.</p>
+            </a>
+          </Link>
+        </div>
     
-    Daily Playing on crypto market. 
         </p>
       </main>
 
